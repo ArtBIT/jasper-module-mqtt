@@ -1,7 +1,7 @@
-Jasper-Module-Selfie
+Jasper-Module-MQTT
 ======================
 
-Jasper Selfie Module for my [HAL9000 Raspberry PI Instructable](http://www.instructables.com/id/RaspberryPI-HAL9000/)
+Jasper MQTT Module for my [HAL9000 Raspberry PI Instructable](http://www.instructables.com/id/RaspberryPI-HAL9000/)
 Written By: Djordje Ungar
 
 ##Steps to install MQTT Module
