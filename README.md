@@ -2,7 +2,32 @@ Jasper-Module-MQTT
 ======================
 
 Jasper MQTT Module for my [HAL9000 Raspberry PI Instructable](http://www.instructables.com/id/RaspberryPI-HAL9000/)
-Written By: Djordje Ungar
+When triggered it publishes a simple MQTT event using the following topic:
+```
+hal9000/*device*/*index* 
+```
+Available devices:
+  * device
+  * room
+  * light
+  * sensor
+  * door
+
+Available indexes:
+  * one
+  * two
+  * three
+  * ...
+  * ten
+
+Available topic messages:
+  * on
+  * off
+  * true
+  * false
+  * open
+  * close
+
 
 ##Steps to install MQTT Module
 
@@ -27,11 +52,12 @@ mqtt:
 ```
 sudo reboot
 ```
-##Congrats, JASPER MQTT Module is now installed and ready for use; here are some examples:
+##Congrats, JASPER MQTT Module is now installed and ready for use.
+Here are some examples:
 ```
 YOU: Light one off
-JASPER: *publishes an mqtt event* topic:hal9000/light/one payload:off
+JASPER: *publishes an mqtt event* topic:hal9000/light/one message:off
 YOU: Door two close
-JASPER: *publishes an mqtt event* topic:hal9000/door/two payload:close
+JASPER: *publishes an mqtt event* topic:hal9000/door/two message:close
 ```
 

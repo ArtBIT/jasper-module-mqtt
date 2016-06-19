@@ -52,5 +52,4 @@ def isValid(text):
     """
 
     regex = "(" + "|".join(DEVICES) + ") (" + "|".join(NUMBERS) + ") (" + "|".join(PAYLOADS) + ")"
-    print "REGEX: "+regex
     return bool(re.search(regex, text, re.IGNORECASE))
