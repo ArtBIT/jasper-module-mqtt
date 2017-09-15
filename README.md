@@ -1,5 +1,4 @@
-Jasper-Module-MQTT
-======================
+# Jasper-Module-MQTT
 
 Jasper MQTT Module for my [HAL9000 Raspberry PI Instructable](http://www.instructables.com/id/RaspberryPI-HAL9000/)
 When triggered it publishes a simple MQTT event using the following topic:
@@ -29,7 +28,7 @@ Available topic messages:
   * close
 
 
-##Steps to install MQTT Module
+## Steps to install MQTT Module
 
 * Install the python Mosquitto package:
 ```
@@ -52,7 +51,7 @@ mqtt:
 ```
 sudo reboot
 ```
-##Congrats, JASPER MQTT Module is now installed and ready for use.
+## Congrats, JASPER MQTT Module is now installed and ready for use.
 Here are some examples:
 ```
 YOU: Light one off
