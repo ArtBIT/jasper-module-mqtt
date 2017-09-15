@@ -1,6 +1,7 @@
 # Jasper-Module-MQTT
 
 Jasper MQTT Module for my [HAL9000 Raspberry PI Instructable](http://www.instructables.com/id/RaspberryPI-HAL9000/)
+
 When triggered it publishes a simple MQTT event using the following topic:
 ```
 hal9000/*device*/*index* 
